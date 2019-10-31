@@ -18,6 +18,7 @@ namespace PortlandTripper.Models
                     {
                         TripAdvisorId = 1,
                         Name = "Extracto",
+                        TimeOfDay = "Morning",
                         Hours = "6am to 6pm",
                         Address = "2921 NE Killingsworth St, Portland, OR 97211",
                         Cost = 8,
@@ -27,6 +28,7 @@ namespace PortlandTripper.Models
                     {
                         TripAdvisorId = 2,
                         Name = "Southeast Grind",
+                        TimeOfDay = "Morning",
                         Hours = "24 hours",
                         Address = "1223 SE Powell, Portland, OR 97202",
                         Cost = 8,
@@ -37,6 +39,7 @@ namespace PortlandTripper.Models
                     {
                         TripAdvisorId = 3,
                         Name = "QuarterWorld",
+                        TimeOfDay = "Afternoon",
                         Hours = "3pm - 1am",
                         Address = "4811 SE Hawthorne Bvld., Portland, OR 97215",
                         Cost = 15,
@@ -46,6 +49,7 @@ namespace PortlandTripper.Models
                     {
                         TripAdvisorId = 4,
                         Name = "Japanese Garden",
+                        TimeOfDay = "Afternoon",
                         Hours = "10am-4pm",
                         Address = "611 SW Kingston Ave., Portland OR 97205",
                         Cost = 17,
@@ -56,6 +60,7 @@ namespace PortlandTripper.Models
                     {
                         TripAdvisorId = 5,
                         Name = "Hawthorne Theater and Lounge",
+                        TimeOfDay = "Evening",
                         Hours = "6:30pm-2am",
                         Address = "1507 SE 39th Ave., Portland OR 97214",
                         Cost = 18,
@@ -65,6 +70,7 @@ namespace PortlandTripper.Models
                     {
                         TripAdvisorId = 6,
                         Name = "Crystal Ballroom",
+                        TimeOfDay = "Evening",
                         Hours = "6:30pm-2am",
                         Address = "1332 W Burnside, Portland OR 97209",
                         Cost = 70,

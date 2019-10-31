@@ -7,10 +7,15 @@ namespace PortlandTripper.Models
         public int TripAdvisorId {get; set;}
         [Required]
         [StringLength(20)]
+
         public string Name {get; set;}
         [Required]
         [StringLength(20)]
 
+        public string TimeOfDay {get; set;}
+        [Required]
+        [StringLength(100)]
+        
         public string Hours {get; set;}
         [Required]
         [StringLength(100)]
